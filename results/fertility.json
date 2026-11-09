@@ -1,0 +1,23 @@
+{
+  "en": {
+    "tokens": 14307,
+    "words": 7608,
+    "fertility": 1.8805205047318612,
+    "fertility_median_per_problem": 1.6110427939006395,
+    "alpha_tokens": 8362,
+    "alpha_words": 8110,
+    "fertility_words": 1.0310727496917387,
+    "n_problems": 164
+  },
+  "tr": {
+    "tokens": 18328,
+    "words": 6089,
+    "fertility": 3.010018065363771,
+    "fertility_median_per_problem": 2.8036735922914784,
+    "alpha_tokens": 12251,
+    "alpha_words": 6636,
+    "fertility_words": 1.8461422543701025,
+    "n_problems": 164
+  },
+  "tr_en_token_ratio": 1.2810512336618438
+}

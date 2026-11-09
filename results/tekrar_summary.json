@@ -1,0 +1,54 @@
+{
+ "conditions": {
+  "qwen2.5-coder-1.5b/en": {
+   "n": 164,
+   "k_a": 104,
+   "k_b": 105,
+   "agree": 157,
+   "same_response": 138,
+   "only_a": 3,
+   "only_b": 4,
+   "p": 1.0
+  },
+  "qwen2.5-coder-1.5b/tr": {
+   "n": 164,
+   "k_a": 72,
+   "k_b": 74,
+   "agree": 158,
+   "same_response": 113,
+   "only_a": 2,
+   "only_b": 4,
+   "p": 0.6875
+  }
+ },
+ "en_tr": {
+  "qwen2.5-coder-1.5b": {
+   "1": {
+    "n": 164,
+    "en": 104,
+    "tr": 72,
+    "diff_pts": 19.51219512195122,
+    "only_en": 41,
+    "only_tr": 9,
+    "p": 5.614100093254137e-06
+   },
+   "2": {
+    "n": 164,
+    "en": 105,
+    "tr": 74,
+    "diff_pts": 18.902439024390244,
+    "only_en": 43,
+    "only_tr": 12,
+    "p": 3.3053764732060564e-05
+   },
+   "stable": {
+    "only_en_both": 38,
+    "only_en_1": 41,
+    "only_en_2": 43,
+    "only_tr_both": 9,
+    "only_tr_1": 9,
+    "only_tr_2": 12
+   }
+  }
+ }
+}

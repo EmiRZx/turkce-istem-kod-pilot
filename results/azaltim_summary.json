@@ -1,0 +1,140 @@
+{
+ "qwen2.5-coder-1.5b": {
+  "n": 164,
+  "k": {
+   "en": 104,
+   "tr": 72,
+   "tr_araceviri": 79,
+   "tr_ikidilli": 82
+  },
+  "rows": [
+   {
+    "strategy": "tr_araceviri",
+    "k": 79,
+    "n": 164,
+    "vs_tr": {
+     "diff_pts": 4.2682926829268295,
+     "only_strategy": 15,
+     "only_tr": 8,
+     "p": 0.21003961563110352,
+     "p_holm": 0.21003961563110352
+    },
+    "vs_en": {
+     "diff_pts": -15.24390243902439,
+     "only_strategy": 7,
+     "only_en": 32,
+     "p": 7.025478407740593e-05
+    },
+    "gap_closed": 0.21875
+   },
+   {
+    "strategy": "tr_ikidilli",
+    "k": 82,
+    "n": 164,
+    "vs_tr": {
+     "diff_pts": 6.097560975609756,
+     "only_strategy": 16,
+     "only_tr": 6,
+     "p": 0.052478790283203125,
+     "p_holm": 0.10495758056640625
+    },
+    "vs_en": {
+     "diff_pts": -13.414634146341463,
+     "only_strategy": 9,
+     "only_en": 31,
+     "p": 0.0006795482549932785
+    },
+    "gap_closed": 0.3125
+   }
+  ],
+  "recovery": {
+   "tr_araceviri": {
+    "recovered": 13,
+    "lost_n": 41,
+    "broken": 8,
+    "kept_n": 72
+   },
+   "tr_ikidilli": {
+    "recovered": 14,
+    "lost_n": 41,
+    "broken": 6,
+    "kept_n": 72
+   }
+  },
+  "translation_ok": 120,
+  "fail_reasons": {
+   "kod_yazdi": 39,
+   "eksik_ceviri": 4,
+   "turkce_kaldi": 1
+  },
+  "by_translation": {
+   "tr_araceviri": {
+    "ok": {
+     "n": 120,
+     "strategy": 58,
+     "tr": 51,
+     "en": 75
+    },
+    "fail": {
+     "n": 44,
+     "strategy": 21,
+     "tr": 21,
+     "en": 29
+    }
+   },
+   "tr_ikidilli": {
+    "ok": {
+     "n": 120,
+     "strategy": 61,
+     "tr": 51,
+     "en": 75
+    },
+    "fail": {
+     "n": 44,
+     "strategy": 21,
+     "tr": 21,
+     "en": 29
+    }
+   }
+  },
+  "errors": {
+   "en": {
+    "logic": 46,
+    "runtime": 6,
+    "syntax": 2,
+    "timeout": 1,
+    "empty_body": 5,
+    "no_code": 0
+   },
+   "tr": {
+    "logic": 82,
+    "runtime": 9,
+    "syntax": 0,
+    "timeout": 0,
+    "empty_body": 1,
+    "no_code": 0
+   },
+   "tr_araceviri": {
+    "logic": 64,
+    "runtime": 10,
+    "syntax": 3,
+    "timeout": 2,
+    "empty_body": 6,
+    "no_code": 0
+   },
+   "tr_ikidilli": {
+    "logic": 65,
+    "runtime": 12,
+    "syntax": 0,
+    "timeout": 0,
+    "empty_body": 5,
+    "no_code": 0
+   }
+  },
+  "repeat_consistency": {
+   "n": 44,
+   "same_response": 30,
+   "same_pass": 44
+  }
+ }
+}
